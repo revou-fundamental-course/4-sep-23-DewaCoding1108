@@ -3,39 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalkulator Persegi</title>
+    <link rel = "stylesheet" href = "css/style.css">
 </head>
 <body>
     <header>
-        <h1>Latihan membuat web</h1>
-        <h2>I Dewa Made Manu Pradnyana</h2>
+        <h1>Menghitung Kotak</h1>
     </header>
-    <nav>
-        <h3>Organisasi</h3>
-        <ul>
-            <li>kadiv tari putra</li>
-            <li>staff Ekstrakampus</li>
-            <li>staff DPP pengawasan</li>
-        </ul>
-    </nav>
-    <img src = "https://cdn1-production-images-kly.akamaized.net/lZvr1bzSCDSv_xTnAUkPy03Oxps=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3514218/original/001683000_1626618064-babi_kecil.JPG" alt = "babi ngepet" width="300" height="300">
-    <figcaption>babi ngepet</figcaption>
-    <a href = "https://www.wikipedia.org/">tes</a>
-    <blockquote cite = "https://www.wikipedia.org/">ini dari wikipedia</blockquote>
-    <p>pada kesempatan kali ini, saya ingin belajar untuk membuat <strong>web</strong></p>
-    <table border="1">
-        <tr>
-            <th>No</th>
-            <th>Nama</th>
-            <th>Angkatan</th>
-        </tr>
-        <tr>
-            <td>No</td>
-            <td>Nama</td>
-            <td>Angkatan</td>
-        </tr>
-    </table>
+    <div>
+        <center>
+            <img id = "persegi"
+            src="../assest/Persegi.png" 
+            alt = "persegi"
+            >
+        </center>
+    </div>
+
+    <section class = "Cara-Penggunaan">
+        <p>Cara Penggunaan :</p>
+        <p>1. Masukkan angka pada input yang disediakan</p>
+        <p>2. Klik <strong>Hitung Luas</strong> untuk menghitung luas dan <br> 
+            klik <strong>Hitung Keliling</strong> untuk menghitung keliling</p>
+        <p>3. Hasil perhitungan akan keluar pada bagian bawah</p>
+        <p>4. Klik <strong>Reset</strong> jika ingin melakukan reset pada input<br>
+        dan hasil hitung</p>
+    </section>
+
+    <section class = "LuasInputSection">
+        <label for = inputField>Sisi Persegi</label>
+        <input id = "inputField" type = "number" placeholder="Masukkan Sisi">
+    </section>
+    <section class = "buttonSection">
+        <button id = "countButtonLuas" disabled>Hitung Luas</button>
+        <button id = "countButtonKeliling" disabled>Hitung Keliling</button>
+    </section>
+    <center><button id = "resetButton">Reset</button><center>
+    <script src = "js/script.js"></script>
+    <p id="hasil-hitung"></p>
+<!--     
+    <h2>
+        <br>
+        Rumus menghitung luas persegi yaitu <br><br>
+        L = S x S
+        <br><br>
+    </h2>
+    <h3>
+        <br>
+        Masukkan panjang sisi
+    </h3>
+    <center>
+        <input id = "input-text" type = "text" value = "40">
+    </center>
+    <br>
+    <center>
+        <button id = "tombol-hitung" onclick="document.getElementById('hasilHitung').innerHTML = 'Hasil Luas : ' + (document.getElementById('input-text').value) * (document.getElementById('input-text').value)  +'<br> Hasil Keliling : ' + 4 * (document.getElementById('input-text').value)">Hitung</button>
+    </center>
+    <p id = "hasilHitung"></p> -->
+
     
 </body>
 </html>
-    

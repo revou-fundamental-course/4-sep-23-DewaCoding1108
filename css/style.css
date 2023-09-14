@@ -1,0 +1,89 @@
+        body{background-color: #FAF1E4;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header{color : white; 
+            background-color: #435334;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .LuasInputSection{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        label{
+            display: block;
+            color: #435334;
+            margin-bottom: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            
+        }
+        input{
+           text-align: center;
+            padding: 6px;
+            font-size: 16px;
+            border: 1px solid #9EB384;
+            outline : none;
+            border-radius: 4px;
+        }
+        input:focus{
+            border-color :#435334;
+        }
+
+        #persegi{ width:150px;
+            height:150px;
+            margin-top: 20px;
+        }
+
+        .buttonSection{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+            
+        }
+
+        button{
+            padding: 5px 10px;
+            border-radius: 4px;
+            background-color: #9EB384;
+            cursor:pointer;
+            margin-top: 5px;
+        }
+
+        button:hover:enabled{
+            background-color: #435334;
+            color:white;
+        }
+
+        h2{
+            color:white;
+            background-color: rgb(74, 143, 76);
+            font-size: 20px;
+            text-align: center;
+        }
+
+        h3{
+            color : black;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #input-text{
+            text-align: center;
+            color : grey;
+        }
+
+        p{
+            text-align: center;
+            color :#435334;
+            font-size: 15px;
+        }
